@@ -64,7 +64,6 @@ main {
 @media only screen and (max-width: 680px) {
   .prev,
   .next {
-    font-size: 11px;
     top: 30%;
   }
   .slide {
