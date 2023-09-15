@@ -23,18 +23,18 @@ i {
   gap: 30px;
 }
 
-.mySlides {
-  display: none;
-}
-img {
-  vertical-align: middle;
-}
+/* corousel styling */
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
+main {
+  width: 100vw;
+  height: 600px;
   position: relative;
-  margin: auto;
+  overflow: hidden;
+}
+.slide {
+  width: 90vw;
+  transition: 1s;
+  position: absolute;
 }
 
 /* Next & previous buttons */
@@ -58,16 +58,4 @@ img {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-}
-
-main {
-  width: 100vw;
-  height: 600px;
-  position: relative;
-  overflow: hidden;
-}
-.slide {
-  width: 90vw;
-  transition: 1s;
-  position: absolute;
 }

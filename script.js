@@ -36,4 +36,5 @@ const slideImage = () => {
   });
 };
 
+// run next function after every 3000s
 setInterval(next, 3000);
